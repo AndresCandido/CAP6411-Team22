@@ -13,7 +13,12 @@ detection_model = YOLOE("yoloe-11s-seg.pt")
 detection_model.set_classes(["chair", "person", "book"])
 
 # YOLO26 Nano Depth
-depth_model = YOLO("yolo26n-depth.pt")
+# n = Nano (fastest)
+# s = Small
+# m = Medium
+# l = Large
+# x = Extra Large (most accurate, slowest)
+depth_model = YOLO("yolo26n-depth.pt") # yolo26 variants: yolo26n-depth.pt, yolo26s-depth.pt, yolo26m-depth.pt, yolo26l-depth.pt, yolo26x-depth.pt
 
 # --------------------------------------------------
 # Open camera

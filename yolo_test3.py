@@ -8,7 +8,7 @@ from ultralytics import YOLO
 # m = Medium
 # l = Large
 # x = Extra Large (most accurate, slowest)
-model = YOLO("yolo26n-depth.pt")
+model = YOLO("yolo26n-depth.pt") # yolo26 variants: yolo26n-depth.pt, yolo26s-depth.pt, yolo26m-depth.pt, yolo26l-depth.pt, yolo26x-depth.pt
 
 # Open camera
 # 0 = default camera
