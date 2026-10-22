@@ -24,12 +24,12 @@ pip install opencv-contrib-python numpy ultralytics
 
 Run `yolo_test5.py`.
 
-The Ultralytics library should automatically download the two YOLO models used in the script into your working directory:
+The Ultralytics library should automatically download the two YOLO models used in the script into your working directory when you run the script for the first time:
 
 - `yoloe-11s-seg.pt` — YOLOE segmentation model
 - `yolo26n-depth.pt` — YOLO26 depth estimation model
 
-**Note:** YOLOE also requires a file called `mobileclip_blt` to work. This file should be created automatically when you run the script for the first time. It takes approximately 0.5 GB of storage.
+**Note:** YOLOE also requires a file called `mobileclip_blt` to work. This file should be created automatically when you run the script for the first time as well. It takes approximately 0.5 GB of storage.
 
 ### Step 3: Check the Camera Settings
 
