@@ -10,7 +10,7 @@ The models used in these files are automatically downloaded using the ultralytic
 For testing Depth-Anything-V2 use the "Depth_test.py" and "Depth_test2.py" files inside in Depth-Anything-V2 folder. "Depth_test.py" is for images, and "Depth_test2.py" for video/livestream input.
 For these files to work they must be placed inside the Depth-Anything-V2 model folder you can download from here: [Depth Anything V2 Small](https://huggingface.co/depth-anything/Depth-Anything-V2-Small)
 
-## ------ For implementing the latest script, yolo_test5.py, do the following: ------
+## ----- For implementing the latest script, yolo_test5.py, do the following: -----
 
 ### Step 1: Install the Required Libraries
 
